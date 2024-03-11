@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".QuizQuestion">
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="415dp"
+        android:layout_height="170dp"
+        android:background="@drawable/question_box"
+        android:textColor="#E8E3E3"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/bottomRec"
+        android:layout_width="421dp"
+        android:layout_height="71dp"
+        android:background="@drawable/box"
+        android:textColor="#E8E3E3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SubmitBtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:text="@string/text_Question"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/totalQuestion"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:text="@string/totalQ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <LinearLayout
+        android:id="@+id/answersGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/SubmitBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question">
+
+        <Button
+            android:id="@+id/ans_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:onClick="ChoiceBtn"
+            android:text="@string/ansA"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/ans_B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:onClick="ChoiceBtn"
+            android:text="@string/ansB"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/ans_C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:onClick="ChoiceBtn"
+            android:text="@string/ansC"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/ans_D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_margin="8dp"
+            android:onClick="ChoiceBtn"
+            android:text="@string/ansD"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SubmitBtn"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="@string/btnSubmit"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answersGroup"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

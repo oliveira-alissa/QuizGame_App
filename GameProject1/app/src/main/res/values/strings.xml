@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">GameProject1</string>
+    <string name="IntroText">"AI Insights"</string>
+    <string name="IntroText2">"A Journey into Artificial Intelligence"</string>
+    <string name="ButtonDescNext">"Next Button"</string>
+    <string name="logo">"App's Logo Image"</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="ProfilePicDes">User Profile Picture</string>
+    <string name="pass">Password</string>
+    <string name="LogOut">Log Out</string>
+
+    <string name="one">1</string>
+    <string name="twelve">12</string>
+    <string name="twenty">20</string>
+
+    <string name="name">Name</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+
+    <string name="profile">Profile</string>
+    <string name="email">Email Address</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="welcome">Welcome!</string>
+    <string name="username">Username or Email Address</string>
+
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="noAccount">Don\'t Have an Account?</string>
+    <string name="next">Next</string>
+    <string name="nextButtonDescription">Next Button</string>
+    <string name="bottomMsg">Unlock the Future with AI Knowledge!</string>
+    <string name="back">Back Button</string>
+    <string name="createMsg">Create a New Account </string>
+    <string name="aboutYou">About You:</string>
+    <string name="createLogin">Create Login Info:</string>
+    <string name="menu_home">Play</string>
+    <string name="menu_gallery">History</string>
+    <string name="hi">Hi,</string>
+
+    <string name="rules">"Objective: Answer AI-related questions correctly to earn points and demonstrate knowledge about artificial intelligence.
+
+        Gameplay:
+        Players answer questions about AI.
+        Each correct answer earns points.
+        There are no penalties for incorrect answers.
+
+        Scoring: Points are awarded immediately
+        after answering each question correctly.
+
+        Ending the Game: The game ends when all
+        questions have been answered"</string>
+    <string name="GameRules">Game Rules</string>
+    <string name="text_Question">This Will be the question</string>
+    <string name="ansA">Answer A</string>
+    <string name="ansB">Answer B</string>
+    <string name="ansC">Answer C</string>
+    <string name="ansD">Answer D</string>
+    <string name="btnSubmit">Next</string>
+    <string name="totalQ">Total Questions</string>
+    <string name="startGame">Start Game</string>
+    <string name="history">Game History</string>
+    <string name="welcome1">Welcome to AI Insights,</string>
+    <string name="pastScores">Your past Score:</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exitBtn">Exit Button</string>
+    <string name="goBack"> Go Back</string>
+    <string name="clearBack"> Clear History</string>
+    <string name="scores"> Scores</string>
+    <string name="home"> Home</string>
+</resources>
